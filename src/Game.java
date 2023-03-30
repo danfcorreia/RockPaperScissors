@@ -14,7 +14,7 @@ public class Game {
             while(games < 5)
             {
                 System.out.println("\nStarting round " + round);
-                Thread.sleep(3000);
+                Thread.sleep(2000);
 
                 int hand1 = p1.fetch();
                 int hand2 = p2.fetch();
